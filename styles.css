@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(199, 173, 173);
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    margin: 10px 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.container input {
+    background-color: rgb(183, 159, 206);
+    border-radius: 5px;
+    text-align: center;
+}
+.container button {
+    background-color: rgb(163, 199, 199);
+    border-radius: 5px;
+}
